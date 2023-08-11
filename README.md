@@ -1,9 +1,9 @@
-# demo-dolphin-llama2-7b-gptq
+# demo-wizardlm-1.0-uncensored-llama2-13b-gptq
 ![](https://www.banana.dev/lib_zOkYpJoyYVcAamDf/x2p804nk9qvjb1vg.svg?w=340 "Banana.dev")
 
-# Banana.dev Dolphin-Llama2-7B-GPTQ starter template
+# Banana.dev WizardLM-1.0-Uncensored-Llama2-13B-GPTQ starter template
 
-This is a Dolphin-Llama2-7B-GPTQ starter template from [Banana.dev](https://www.banana.dev) that allows on-demand serverless GPU inference.
+This is a WizardLM-1.0-Uncensored-Llama2-13B-GPTQ starter template from [Banana.dev](https://www.banana.dev) that allows on-demand serverless GPU inference.
 
 You can fork this repository and deploy it on Banana as is, or customize it based on your own needs.
 
@@ -12,7 +12,7 @@ You can fork this repository and deploy it on Banana as is, or customize it base
 
 ## Deploying on Banana.dev
 
-1. [Fork this](https://github.com/bananaml/demo-dolphin-llama2-7b-gptq/fork) repository to your own Github account.
+1. [Fork this](https://github.com/bananaml/demo-wizardlm-1.0-uncensored-llama2-13b-gptq/fork) repository to your own Github account.
 2. Connect your Github account on Banana.
 3. [Create a new model](https://app.banana.dev/deploy) on Banana from the forked Github repository.
 
@@ -27,16 +27,16 @@ For more info, check out the [Banana.dev docs](https://docs.banana.dev/banana-do
 
 ### Using Docker
 
-Build the model as a Docker image. You can change the `dolphin-llama2-7b-gptq` part to anything.
+Build the model as a Docker image. You can change the `wizardlm-1.0-uncensored-llama2-13b-gptq` part to anything.
 
 ```sh
-docker build -t dolphin-llama2-7b-gptq .
+docker build -t wizardlm-1.0-uncensored-llama2-13b-gptq .
 ```
 
 Run the Potassium server
 
 ```sh
-docker run --publish 8000:8000 -it dolphin-llama2-7b-gptq
+docker run --publish 8000:8000 -it wizardlm-1.0-uncensored-llama2-13b-gptq
 ```
 
 In another terminal, run inference after the above is built and running.
