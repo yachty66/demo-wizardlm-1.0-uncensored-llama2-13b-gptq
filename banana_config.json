@@ -6,7 +6,7 @@
             "description": "The prompt to feed to the model.",
             "type": "string",
             "required": true,
-            "default": "Tell me about AI"
+            "default": "Tell me about AI."
         },
         {
             "name": "temperature",
