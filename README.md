@@ -1,4 +1,3 @@
-# demo-wizardlm-1.0-uncensored-llama2-13b-gptq
 ![](https://www.banana.dev/lib_zOkYpJoyYVcAamDf/x2p804nk9qvjb1vg.svg?w=340 "Banana.dev")
 
 # Banana.dev WizardLM-1.0-Uncensored-Llama2-13B-GPTQ starter template
