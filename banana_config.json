@@ -2,25 +2,23 @@
     "version": "1",
     "inputs": [
         {
-            "name": "instruction",
-            "description": "The prompt to provide to the model.",
+            "name": "prompt",
+            "description": "The prompt to feed to the model.",
             "type": "string",
-            "required": true
+            "required": true,
+            "default": "Tell me about AI"
         },
         {
             "name": "temperature",
-            "description": "Temperature setting for the model.",
+            "description": "The temperature to use.",
             "type": "number",
-            "required": false,
-            "min": 0,
-            "max": 1
+            "default": 0.5
         },
         {
             "name": "max_new_tokens",
-            "description": "Maximum tokens which are outputted by the model.",
+            "description": "Generate at most this many new tokens in the response.",
             "type": "number",
-            "required": false,
-            "min": 100
+            "default": 100
         }
     ],
     "examples": [
